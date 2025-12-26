@@ -1,5 +1,6 @@
-##Foucault Pendulum Simulator
-Features
+#Foucault Pendulum Simulator
+
+##Features
 Realistic Physics Simulation: Accurate mathematical model of Foucault pendulum motion
 Dual Visualization Modes:
 Normal Mode: Shows pendulum oscillation and precession
@@ -9,7 +10,7 @@ Educational Information Panel: Real-time explanations of what's happening at dif
 Modern UI Design: Clean, intuitive interface with high contrast colors
 Keyboard Shortcuts: Quick access to common functions
 
-Controls
+###Controls
 Mouse Controls
 Latitude Slider: Adjust the latitude (-90° to 90°)
 Speed Slider: Control simulation speed (100x to 10000x)
@@ -27,7 +28,7 @@ ESC: Exit program
 Educational Value
 This simulation helps visualize and understand:
 
-How Earth's rotation affects pendulum motion
+####How Earth's rotation affects pendulum motion
 The relationship between latitude and precession rate
 Why the pendulum appears to rotate relative to Earth
 The difference between inertial and rotating reference frames
