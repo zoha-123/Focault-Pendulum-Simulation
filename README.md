@@ -1,3 +1,4 @@
+##Foucault Pendulum Simulator
 Features
 Realistic Physics Simulation: Accurate mathematical model of Foucault pendulum motion
 Dual Visualization Modes:
@@ -39,22 +40,30 @@ The simulation uses the following physics equations:
 
 1.Pendulum Motion:
 x(t) = A * cos(ω₀ * t)
+
 y(t) = A * 0.3 * sin(ω₀ * t)
+
 where ω₀ = √(g/L) is the natural frequency
 
-2. Earth Rotation Effects:
+2.Earth Rotation Effects:
 ωp = ωe * sin(latitude)
+
 θ = ωp * t * speed_factor
+
 where ωe is Earth's angular velocity
 
 3.Coordinate Transformation:
+
 x_earth = x * cos(θ) - y * sin(θ)
+
 y_earth = x * sin(θ) + y * cos(θ)
 
 Normal Mode: Showing pendulum oscillation and precession
+
 <img width="1620" height="991" alt="image" src="https://github.com/user-attachments/assets/f7229f19-9a45-468b-995d-747593f6b2a5" />
 
 Fixed Mode: Earth rotates beneath a fixed pendulum
+
 <img width="1622" height="973" alt="image" src="https://github.com/user-attachments/assets/cae8c323-d710-4296-a624-b9847550e1ad" />
 
 
