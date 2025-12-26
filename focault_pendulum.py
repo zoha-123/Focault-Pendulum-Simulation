@@ -4,7 +4,8 @@ Foucault Pendulum Simulator - Enhanced Interactive Version
 An educational simulation demonstrating how Foucault pendulum
 reveals Earth's rotation through precession of its oscillation plane.
 
-Author: Enhanced by AI Assistant
+Author: Zoha Imran (with AI Assistance)
+
 License: MIT
 """
 
@@ -652,4 +653,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
